@@ -2,38 +2,56 @@
 
 jaoleal
 
+0a. vinteum.org/mastering/
+  Resumo: Novo seminario da vinteum, bitcoin e lightining. 170 inscritos ate o momento.
+  Perguntas para o bitdevs:
+  "Pergunta 1" - "Resposta para a pergunta 1"
+
 1a. CISA:https://hrf.org/latest/cisa-research-paper/
-  Resumo:
+  Resumo: "Report da human right foundations sobre CISA, uma agregacao de assinaturas que permitiria que apenas uma assinatura desbloqueasse varios inputs"
+  - espaco ocupado, 20%
+  - fee
+  -+ privacidade
+  + eficiencia computacional
+  - dados sendo trafegado.
+  
+  *precisa de softfork*
   Perguntas para o bitdevs:
   "Pergunta 1" - "Resposta para a pergunta 1"
 
 2a. The evulotion of payjoin:https://payjoindevkit.org/2025/03/18/the-evolution-of-payjoin/
-  Resumo:
+  Resumo:  Payjoin, um protocolo para mesclar transacoes de diversos usuarios esta evoluindo, indo para sua terceira versao.
   Perguntas para o bitdevs:
   "Pergunta 1" - "Resposta para a pergunta 1"
 
 3a. ARK on signet:https://x.com/2ndbtc/status/1902400806659514562
-  Resumo:
+  Resumo: Second esta lancando a implementacao de ark que esta rodando na signet. Uma lojinha muito interessante esta rodando no signet.2nd.dev.
+  
+  Notas: Parece que ark vai ser muito interessante futuramente. 
+  
   Perguntas para o bitdevs:
   "Pergunta 1" - "Resposta para a pergunta 1"
 
 4a. LND fallback disclousure:https://delvingbitcoin.org/t/disclosure-lnd-excessive-failback-exploit/1493
-  Resumo:
+  Resumo: Exploit no lightining node que pode levar a parda de fundos, dpis nodes roteando pagamentos pode atacar um intermediario caso o mesmo acabasse offline durante 
+  o roteamento.
+  
   Perguntas para o bitdevs:
   "Pergunta 1" - "Resposta para a pergunta 1"
 
 5a. P2P analise  trafic:https://delvingbitcoin.org/t/bitcoin-node-p2p-traffic-analysis/1490
-  Resumo:
+  Resumo: Este post fala sobre uma analise sobre as mensagens de um node, o trafego, que tem um grande consumo de computacao quando um node termina de fazer o ibd.
+  Existem, tambem, varios nodes espioes que apenas ficam consumindo informacoes para ?
   Perguntas para o bitdevs:
   "Pergunta 1" - "Resposta para a pergunta 1"
 
 6a. Integrate Floresta with LND: https://github.com/lightningnetwork/lnd/issues/9608
-  Resumo:
+  Resumo: Porque o Floresta seria bom como backend do LND https://github.com/lightningnetwork/lnd/issues/9608#issuecomment-2754300892
   Perguntas para o bitdevs:
   "Pergunta 1" - "Resposta para a pergunta 1"
 
 7a. LND’s Deadline-Aware Budget Sweeper https://delvingbitcoin.org/t/lnds-deadline-aware-budget-sweeper/1512
-  Resumo:
+  Resumo: ""
   Perguntas para o bitdevs:
   "Pergunta 1" - "Resposta para a pergunta 1"
 
