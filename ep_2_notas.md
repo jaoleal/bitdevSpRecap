@@ -8,30 +8,40 @@
 jaoleal:
 
 1a.
-*  [BIP 54: Consensus Cleanup](https://github.com/bitcoin/bips/pull/1800)     
+*  [BIP 54: Consensus Cleanup](https://github.com/bitcoin/bips/pull/1800)     
 * - [Interview with Antoine Poinsot](https://www.youtube.com/watch?v=-LGpW2PKwHA)
-* - Resumo:
+* - Resumo: "Resolve timewarp attack, novos limites de script para diminuir a maior quantidade de tempo possivel que um bloco pode fazer um node demorar 
+para validar e uma mudancinha no numa restricao das transacoes em questao de tamanho e em coinbases"
 * - "Pergunta 1" - "Resposta para a pergunta 1"
 
 2a.
 * [Awesome CTV+CSFS](https://github.com/arshbot/awesome-ctv-csfs)
-* - Resumo:
+* - Resumo: "Eh uma lista cobrindo varios assuntos relacionados a CTV e CSFS, mostra diversos projetos que podem ser possiveis com a ativacao do CTV, tem uma lista
+mostrando tudo oq eh possivel ser feito com bitcoin, uma lista para ferramentas que integram com CTV e algumas que tambem com CSFS, algumas fontes de material 
+sobre os opcodes e topicos de discussao"
 * - "Pergunta 1" - "Resposta para a pergunta 1"
 
 3a.
 * [Bitcoin Core 29.0](https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-29.0.md#notable-changes)
-* - Resumo:
+* - Resumo: "Nova versao do bitcoin: (vai ler la), destaco o novo comando RPC o getdescriptoractity"
 * - "Pergunta 1" - "Resposta para a pergunta 1"
 
 4a.
 * [SwiftSync: “Near-stateless, fully parallelizable validation of the Bitcoin blockchain with hints about which outputs remain unspent.”](https://gist.github.com/RubenSomsen/a61a37d14182ccd78760e477c78133cd)
 * - "links auxiliares
-* - Resumo:
+* - Resumo: "Apresenta um novo protocolo de sincronizacao da blockchain(Como assim sincronizacao ?) bitcoin para nodes, o protocolo se baseia no uso de aritmetica de 
+hashes agregados e dicas sobre o tip para sincronizar na rede. Um node que esteja usando SwiftSync recolhe informacao sobre os UTXOs no TIP, vai 
+interpretando blocos e adicionando outputs que ja foram canonicamente gastos no futuro no agregador de hashes e removendo eles assim que sao gastos em blocos, desta forma
+ele consegue verificar que a chain esta correta e que as informacoes repassadas sao veridicas quando ao chegar ao tip o acumulador estiver zerado garantindo que mapeou
+todos os UTXOs. Switft sync parece ser voltado para performance e diminuicao de tempo em que se eh gasto fazendo sincronizacao da rede alem de poder ser executado em
+dispositivos leves como smartphones, minipcs e ate FPGAS sem muita dificuldade. Swift sync consegue fazer isso pois sua sincronizacao ja recebe um pseudo UTXO set e 
+nao precisa fazer nenhum tipo de flush, ele nao precisa escrever em disco como a sincronizacao atual do bitcoin core fazendo com que a performance de sincronizacao
+seja totalmente relacionado ao poder de cpu e a velocidade da memoria ram que possui."
 * - "Pergunta 1" - "Resposta para a pergunta 1"
 
 5a.
 * a [DahLIAS: Discrete Logarithm-Based Interactive Aggregate Signatures](https://eprint.iacr.org/2025/692.pdf)
-* - Resumo:
+* - Resumo: "TLDR; eh um novo protocolo de assinatura interativa e agregada, N participantes onde N ∈ {1, . . . , N} de tamanho constante, que promete tambem reduzir espaco de disco e poder de processamento. "
 * - "Pergunta 1" - "Resposta para a pergunta 1"
 
 
