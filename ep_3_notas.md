@@ -53,24 +53,19 @@
 **Resumo:**
 - "Pergunta 1" - "Resposta para a pergunta 1"
 
-
 ## j-moreno-r-c:
 
 ### 1b. [First mainnet use of the Taproot Annex](https://xcancel.com/mononautical/status/1921180666831499737)
 **Links adicionais:**
 - https://xcancel.com/mononautical/status/1921557253368295733
 
-**Resumo:**
-- "Pergunta 1" - "Resposta para a pergunta 1"
+**Resumo:ALguem botou um dickbut e um maguinho em um taproot annex...**
+- "Como isso funciona, Como um OP_PUSHDATA? a imagem tem tantos bytes?" - "Resposta para a pergunta 1"
 
-
-
-### 1b. [Mempool space UTXO set report](https://xcancel.com/orangesurfbtc/status/1924604141977956745?s=46)
+### 2b. [Remove the legacy wallet and BDB dependency](https://github.com/bitcoin/bitcoin/pull/28710)
 **Links adicionais:**
 - Nenhum
 
-**Resumo:**
-- "Pergunta 1" - "Resposta para a pergunta 1"
 
 ### 2b. [Dust Expiry: Clean the UTXO set from spam](https://delvingbitcoin.org/t/dust-expiry-clean-the-utxo-set-from-spam/1707/1)
 **Links adicionais:**
@@ -128,7 +123,7 @@ Remove arbitrary limits on OP_Return (datacarrier) outputs✅
     TX-Pingeon vs garbageman
 Bitcoin🌟
 Dust Expiry: Clean the UTXO set from spam✅
-Legacy wallet removed
+Legacy wallet removed✅
 CVE-2024-52919 - Remote crash due to addr message spam (part 2)✅
     Bitcoin Core’s website info on the CVE
 Withdrawing OP_VAULT (BIP-345)✅
